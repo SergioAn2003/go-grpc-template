@@ -51,20 +51,6 @@ func (mr *MockSessionMockRecorder) Commit() *gomock.Call {
 	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Commit", reflect.TypeOf((*MockSession)(nil).Commit))
 }
 
-// CreateNewSession mocks base method.
-func (m *MockSession) CreateNewSession() Session {
-	m.ctrl.T.Helper()
-	ret := m.ctrl.Call(m, "CreateNewSession")
-	ret0, _ := ret[0].(Session)
-	return ret0
-}
-
-// CreateNewSession indicates an expected call of CreateNewSession.
-func (mr *MockSessionMockRecorder) CreateNewSession() *gomock.Call {
-	mr.mock.ctrl.T.Helper()
-	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "CreateNewSession", reflect.TypeOf((*MockSession)(nil).CreateNewSession))
-}
-
 // Rollback mocks base method.
 func (m *MockSession) Rollback() error {
 	m.ctrl.T.Helper()

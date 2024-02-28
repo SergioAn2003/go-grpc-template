@@ -93,3 +93,7 @@
 [template] [36mINFO[0m[18.02.2024 22:26:40] version 1.0.0                                 [36mfile[0m=cmd/main.go [36mline[0m=25
 [template] [36mINFO[0m[18.02.2024 22:27:26] version 1.0.0                                 [36mfile[0m=cmd/main.go [36mline[0m=25
 [template] [36mINFO[0m[18.02.2024 22:27:26] grpc сервер запущен на порту 9000             [36mfile[0m=grpc/server.go [36mline[0m=84
+[template] [36mINFO[0m[28.02.2024 14:46:16] version 1.0.0                                 [36mfile[0m=cmd/main.go [36mline[0m=25
+[template] [36mINFO[0m[28.02.2024 14:46:16] grpc сервер запущен на порту 9000             [36mfile[0m=grpc/server.go [36mline[0m=84
+[template] [36mINFO[0m[28.02.2024 15:35:23] version 1.0.0                                 [36mfile[0m=cmd/main.go [36mline[0m=25
+[template] [36mINFO[0m[28.02.2024 15:35:23] grpc сервер запущен на порту 9000             [36mfile[0m=grpc/server.go [36mline[0m=84

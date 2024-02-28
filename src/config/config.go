@@ -27,3 +27,22 @@ func (c *Config) PostgresqlConnectionString() string {
 
 	return url
 }
+
+func (c *Config) RedisConnectionData() struct {
+	Host     string
+	Password string
+} {
+	host := os.Getenv("REDIS_HOST")
+	password := os.Getenv("REDIS_PASSWORD")
+
+	if host == "" || password == "" {
+		log.Fatalln("отсутствуют данные для подключения к redis")
+	}
+	return struct {
+		Host     string
+		Password string
+	}{
+		Host:     host,
+		Password: password,
+	}
+}
